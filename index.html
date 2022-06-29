@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/#responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4F78BMFGL"></script>
+    <script src="https://kit.fontawesome.com/eae6f2991c.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navList v-nav">
+                <li class="nav-items active"><a href="#home"> <i class="fa fa-home"></i> Home </a></li>
+                <li class="nav-items"><a href="#about"> <i class="fa fa-info-circle"></i> About </a></li>
+                <li class="nav-items"><a href="#skills"> <i class="fa fa-tasks"></i> Skills </a></li>
+                <li class="nav-items"><a href="#contact"> <i class="fa fa-user"></i> Contact </a></li>
+            </ul>
+            <div class="menu" onclick="clicked()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-h" data-aos="slide-up">
+            <p> Welcome to my Portfolio! </p>
+        </div>
+        <div class="img" data-aos="slide-up">
+            <img src="img/img.jpg" alt="Me">
+        </div>
+        <div class="paras" data-aos="slide-up">
+            <p>A Full Stack Developer focusing on development using various techniques such as MEAN/MERN/XAMPP stacks and</p>
+            <p>Frameworks such as Angular, Ionic, React, etc.</p>
+        </div>
+        <a href="assets/Resume.pdf" download> <button class="btn">Get CV</button> </a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-h" data-aos="slide-up">
+            <p> About Me! </p>
+        </div>
+
+        <div data-aos="slide-up">
+            <div class="box">
+                <div class="paras">
+                    <ul class="about-p">
+                        <p>I am a Developer born in Solapur Maharashtra.</p>
+                        <p>Currently focusing on Programming and Development towards the human goodwill.</p>
+                        <p>My forte is Programming Languages like Java,C,C++,Python.</p>
+                        <p>I can also code in Scripting Languages such as PHP,JavaScript.</p>
+                        <p>I can create some cool websites using HTML, Pug(not what u thinking) and CSS.</p>
+                        <p>I can also develop WebApps in various frameworks such as Ionic, Angular, React.</p>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="paras">
+                    <ul class="about-p">
+                        <p>I have completed my School from SSMEMHD Solapur in 2016 (85%)</p>
+                        <p>I have completed my Jr. College from C.B.Khedgi College in 2018 (65%)</p>
+                        <p>Im Currently pursuing B.Tech from NBNSCOE in CSE(As Expected!)</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-h" data-aos="slide-up">
+            <p> My Skills! </p>
+        </div>
+
+        <div class="skill-container1" data-aos="slide-up">
+            <div class="circle">
+                <div class="animaCircle java"></div>
+                <p>HTML/CSS</p>
+            </div>
+            <div class="circle">
+                <div class="animaCircle c"></div>
+               <p>Team work</p>
+            </div>
+            <div class="circle">
+                <div class="animaCircle cpp"></div>
+               <p>Android Studio</p>
+            </div>
+            <div class="circle">
+                <div class="animaCircle python"></div>
+               <p>Marketing</p>
+            </div>
+        </div>
+        <div class="skill-container2" data-aos="slide-up">
+            <div class="circle">
+                <div class="animaCircle angular"></div>
+                <p>Management</p>
+            </div><div class="circle">
+                <div class="animaCircle html"></div>
+                <p>Networking</p>
+            </div>
+            <div class="circle">
+                <div class="animaCircle ionic"></div>
+                <p>Ionic</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-h" data-aos="slide-up">
+            <p> Contact Me! </p>
+        </div>
+
+        <div class="form" data-aos="slide-up">
+            <form action="https://formspree.io/f/xbjqgdjb" method="POST">
+                <input type="text" class="form-control" placeholder="Name" name="Name" required>
+                <input type="email" class="form-control" placeholder="Email" name="Email" required>
+                <textarea class="form-control" placeholder="Message" name="Message" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="socio">
+        <div class="social" data-aos="slide-up">
+            <p> @Saipan Naikwadi </p>
+            <div class="social-container">
+                <a href="https://github.com/saif8177" target="_blank"> <ul> <i class="fab fa-github"></i> </ul> </a>
+                <a href="https://t.me/I_am_attitude" target="_blank"> <ul> <i class="fab fa-telegram"></i> </ul> </a>
+                <a href="https://www.instagram.com/saipan_naikwadi/" target="_blank"> <ul> <i class="fab fa-instagram"></i> </ul> </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+<footer>
+    <p>Copyright &copy 2021 | Saipan Naikwadi | All rights reserved</p>
+</footer>
+<script src="js/responsive.js"></script>
+</html>
